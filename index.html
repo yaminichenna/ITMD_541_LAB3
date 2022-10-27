@@ -1,0 +1,60 @@
+<!DOCTYPE html >
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0 " />
+            <link rel="stylesheet" href="style.css" />
+            <title >Tip Calculator</title>
+        </head>
+        <body>
+            <div id="Container">
+                <form>
+                <h3 id="title"> ITMD 541-Lab 3-Yamini Chenna</h3>
+                    <h2 id="title"> Tip Calculator </h2>
+    
+                        <div class="row">
+                        <div class="col-25">
+                            <label>Bill Total:</label>
+                        </div>
+                        <div class="col-75">
+                            <input id="billtotal" type="number" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label>Tip:</label>
+                        </div>
+                        <div class="col-75">
+                            <input id="tip" type="range" min="1" max="100" value="10" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label>Tip Percentage:</label>
+                        </div>
+                        <div class="col-75">
+                            <input class="tipPercentage" id="tipPercentage" type="number" disabled />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label>Tip Amount:</label>
+                        </div>
+                        <div class="col-75">
+                            <input id="tipAmount" type="number" disabled />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label>Total Bill with Tip:</label>
+                        </div>
+                        <div class="col-75">
+                            <input id="totalBillWithTip" type="number" disabled />
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <script src="script.js"></script>
+        </body>
+    </html >
